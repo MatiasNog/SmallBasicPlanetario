@@ -1,0 +1,166 @@
+GraphicsWindow.Width = Desktop.Width-14
+GraphicsWindow.Height = Desktop.Height-55
+GraphicsWindow.Top = 0
+GraphicsWindow.Left = 0
+GraphicsWindow.Title="Planetario de Noguera Andres Matias 2ºA - ISIV (Instituto.Superior.Informatica.Virasoro)"
+GraphicsWindow.BackgroundColor="Black"
+GraphicsWindow.MouseDown =MD 
+OriX=GraphicsWindow.Width /2
+OriY=GraphicsWindow.Height /2 -10
+RelAsp=GraphicsWindow.Width /GraphicsWindow.Height
+DiamPlaneta[0]=OriY /3.5   
+OrbPlaneta[0]= 0          
+ColorPlaneta[0]="Yellow" 
+PeriodoPlaneta[0]= 0    
+NombrePlaneta[0]="El Sol"     
+InfoPlaneta[0]="Nuestro sol es una estrella del tipo espectral G2V, denominada también enana amarilla A causa de su proximidad a la Tierra y como es una estrella típica, el Sol es un recurso extraordinario para el estudio de los fenómenos estelares. No se ha estudiado ninguna otra estrella con tanto detalle. a energía solar se crea en el interior del Sol denominado NUCLEO. Es aquí donde la temperatura (15.000.000° C) y la presión (340 mil veces la presión del aire en la Tierra al nivel del mar) son tan intensas que se llevan a cabo las reacciones nucleares. Éstas reacciones causan que cuatro átomos de hidrógeno se fusionen y formen una partícula alfa o núcleo de helio. La partícula alfa tiene cerca de 0.7 % menos masa que los cuatro protones. La diferencia en la masa es expulsada como energía y es llevada a la superficie del Sol, a través de un proceso conocido como convección, donde se liberan luz y calor. La energía generada en el centro del Sol tarda un millón de años para alcanzar la superficie solar. Cada segundo se convierten 700 millones de toneladas de hidrógeno en cenizas de helio, el núcleo solar esta compuesto de hidrógeno y helio en cantidades iguales y un 2% de otros elementos. En el proceso se liberan 5 millones de toneladas de energía pura; por lo cual, el Sol cada vez se vuelve más ligero."
+DiamPlaneta[1]=OriY /60      
+OrbPlaneta[1]=OriY / 5.4     
+ColorPlaneta[1]="MediumOrchid" 
+PeriodoPlaneta[1]= 88      
+NombrePlaneta[1]="Mercurio"   
+InfoPlaneta[1]="Mercurio recibió este nombre de los romanos por el mensajero de pies alados de los dioses ya que parecía moverse más rápido que ningún otro planeta. Es el planeta más cercano al Sol, y el segundo más pequeño del Sistema Solar. Su diámetro es un 40% más pequeño que la Tierra y un 40% más grande que la Luna. Es incluso más pequeño que la luna de Júpiter, Ganimedes o la luna de Saturno, Titán. Se encuentra a una distancia aproximada del Sol de 58 millones de km, tiene un diámetro de 4.875 km, su volumen y su masa son semejantes a los de la Tierra y su densidad media es aproximadamente igual a la de la Tierra. Mercurio órbita alrededor del Sol cada 88 días (año del planeta). Los estudios de radar del planeta muestran que gira sobre su eje una vez cada 58,7 días o cada dos terceras partes de su periodo orbital; por tanto, gira una vez y media sobre su eje durante cada periodo orbital. Dado que su superficie es abrupta, porosa y de roca oscura." 
+DiamPlaneta[2]=OriY /44      
+OrbPlaneta[2]=OriY / 4.4     
+ColorPlaneta[2]="Orange"      
+PeriodoPlaneta[2]= 225       
+NombrePlaneta[2]="Venus"     
+InfoPlaneta[2]="Venus,que recibe el nombre de la diosa romana del amor y la belleza, es el segundo planeta desde el Sol. Es el objeto más brillante del cielo, después del Sol y la Luna. A este planeta se le llama el lucero del alba cuando aparece por el Este al amanecer y el lucero de la tarde cuando está situado al Oeste al atardecer. En la antigüedad, al lucero de la tarde se le llamaba Hesperus y al lucero del alba Phosphorus o Lucifer. Debido a las distancias de las órbitas de Venus y la Tierra desde el Sol, Venus no es visible nunca más de tres horas antes del amanecer o tres horas después del ocaso. Los primeros astrónomos pensaron que Venus podría ser en realidad dos cuerpos separados. Observado a través de un telescopio, el planeta muestra fases como la Luna."      
+DiamPlaneta[3]=OriY /42     
+OrbPlaneta[3]=OriY / 3.5      
+ColorPlaneta[3]="MediumSlateBlue" '
+PeriodoPlaneta[3]= 365       
+NombrePlaneta[3]="Tierra"   
+InfoPlaneta[3]="La Tierra es el tercer planeta más cercano al Sol, a una distancia de alrededor de 150 millones de kilómetros y el quinto en cuanto a tamaño de los nueve planetas principales. Tiene un diámetro de 12.756 kilómetros, solamente unos cuantos kilómetros más grande que el diámetro de Venus. Nuestra atmósfera está compuesta de un 78 por ciento de nitrógeno, 21 por ciento de oxígeno y 1 por ciento de otros constituyentes. Es el único planeta conocido que tiene vida, aunque algunos de los otros planetas tienen atmósferas y contienen agua. La Tierra no es una esfera perfecta, sino que tiene forma de pera. Cálculos basados en las perturbaciones de las órbitas de los satélites artificiales revelan que la Tierra es una esfera imperfecta porque el ecuador se engrosa 21 km; el polo norte está dilatado 10 m y el polo sur está hundido unos 31 metros."      
+DiamPlaneta[4]=OriY /50    
+OrbPlaneta[4]=OriY / 2.92    
+ColorPlaneta[4]="OrangeRed"   
+PeriodoPlaneta[4]= 687      
+NombrePlaneta[4]="Marte"    
+InfoPlaneta[4]="Marte es el cuarto planeta desde el Sol y el séptimo en cuanto a masa. Suele recibir el nombre de Planeta Rojo. Las rocas, suelo y cielo tienen una tonalidad rojiza o rosacea ya que contiene altas cantidades de óxido de hierro, conocido también como Hematita. Este característico color rojo fue observado por los astrónomos a lo largo de la historia. Los romanos le dieron nombre en honor de su dios de la guerra. Otras civilizaciones tienen nombres similares. Los antiguos Egipcios lo llamaron Her Descher que significa el rojo. Marte tiene dos pequeños satélites con cráteres, Fobos y Deimos, que algunos astrónomos consideran que son asteroides capturados por el planeta muy al comienzo de su historia. Fobos mide unos 21 kms de diámetro y Deimos, sólo unos 12 kilómetros. Antes de la exploración espacial, Marte era considerado como el mejor candidato para albergar vida extraterrestre. Los astrónomos creyeron ver líneas rectas que atravesaban su superficie. Esto condujo a la creencia popular de que algún tipo de inteligencia había construido canales de irrigación"       
+DiamPlaneta[5]=OriY /8.75     
+OrbPlaneta[5]=OriY / 2.19  
+ColorPlaneta[5]="Olive"       
+PeriodoPlaneta[5]= 4307       
+NombrePlaneta[5]="Júpiter"    
+InfoPlaneta[5]="Júpiter es el quinto planeta desde el Sol, y el mayor del sistema solar. Recibió el nombre del rey de los dioses de la mitología romana. Júpiter es 1.400 veces más voluminoso que la Tierra (si estuviera vacío cabrían en su interior más de mil Tierras), pero su masa es sólo 318 veces la de nuestro planeta, esto se debe que es un plantea prácticamente gaseoso. La densidad media de Júpiter es como una cuarta parte de la densidad de la Tierra, lo que indica que este planeta gigante debe estar compuesto de gases más que de metales y rocas como la Tierra y otros planetas. Planeta Júpiter Da una vuelta alrededor del Sol cada 11,9 años terrestres a una distancia orbital media de 778 millones de kilómetros. El Planeta Tierra y Júpiter tienen períodos en los cuales se acercan y se alejan uno de otro ya que sus órbitas no son todos los años iguales. Este ciclo se produce cada 47 años. La distancia mínima entre ambos planetas es de 590 millones de kilómetros, la cual ocurre al momento de escribir estas líneas en julio de 2013, la distancia máxima entre ambos planetas cuando están en oposición es de 676 millones de kilómetros. Júpiter tiene un diámetro ecuatorial de 142.800 kilómetros y tarda 9,9 horas en dar una vuelta alrededor de su eje . Esta rápida rotación sumado a que se compone casi por completo de hidrógeno y helio produce un engrosamiento ecuatorial que se aprecia cuando se mira el planeta a través de un telescopio. La rotación no es uniforme y el mismo efecto se nota en el sol."       
+DiamPlaneta[6]=OriY /10  
+OrbPlaneta[6]=OriY / 1.52      
+ColorPlaneta[6]="Khaki"       
+PeriodoPlaneta[6]= 10731      
+NombrePlaneta[6]="Saturno"     
+InfoPlaneta[6]="Saturno es el sexto planeta desde el Sol y el segundo más grande del sistema solar con un diámetro ecuatorial de 119.300 kilómetros. Está claramente achatado en los polos, como resultado de la rápida rotación del planeta alrededor de su eje. Su día dura 10 horas, 39 minutos y tarda 29,5 años terrestres en completar su órbita alrededor del Sol. La peculiaridad más conocida de Saturno es la de estar rodeado de un sistema de anillos, descubierto en 1610 por Galileo utilizando uno de los primeros telescopios. Galileo no comprendió que los anillos estuvieran separados del cuerpo central del planeta, así que los describió como asas. Fue el astrónomo holandés Christiaan Huygens el primero en describirlos correctamente. En 1655, para no perder su derecho de prioridad mientras verificaba sus propuestas, Huygens escribió un anagrama que, cuando se ordenaba, formaba una sentencia latina cuya traducción dice así: Está circundado por un delgado anillo achatado, inclinado hacia la eclíptica y sin tocar en ningún punto al planeta. Los anillos, que se nombraron por el orden en que se descubrieron, se conocen como los anillos D, C, B, A, F, G y E. Hoy se sabe que contienen más de 100.000 pequeños anillos, todos ellos girando en torno al planeta. El viento sopla a grandes velocidades en Saturno. Cerca del ecuador, alcanza velocidades de 500 metros por segundo. El viento sopla principalmente hacia el este. Los vientos más fuertes se encuentran cerca del ecuador y su velocidad disminuye uniformemente a medida que nos alejamos de él. A latitudes por encima de los 35 grados, los vientos alternan su dirección de este a oeste según aumenta la latitud."
+DiamPlaneta[7]=OriY /17.5      
+OrbPlaneta[7]=OriY / 1.25      
+ColorPlaneta[7]="SlateBlue"       
+PeriodoPlaneta[7]= 30660       
+NombrePlaneta[7]="Urano"    
+InfoPlaneta[7]="Urano es el séptimo planeta desde el Sol y es el tercero más grande del Sistema Solar. En comparación con la Tierra, Urano tiene una masa 14,5 veces mayor, un volumen 67 veces mayor y una gravedad 1,17 veces mayor. No obstante, el campo magnético de Urano sólo es una décima parte más fuerte que el de la Tierra. La densidad de Urano es aproximadamente 1,2 veces la del agua. Fue descubierto accidentalmente en 1781 por el astrónomo británico William Herschel y originariamente se le llamó Georgium Sidus (Estrella de Jorge) en honor a su mecenas real, Jorge III. Más tarde, durante un tiempo se le llamó Herschel en honor a su descubridor. El nombre Urano, que propuso por vez primera el astrónomo alemán Johann Elert Bode, se comenzó a utilizar a finales del siglo XIX. Tiene un diámetro ecuatorial de 51.800 kilómetros y su distancia media al Sol es de 2.870 millones de kilómetros. Completa su órbita alrededor del Sol cada 84,01 años terrestres, pero gira fuera de la órbita de Saturno y dentro de la órbita de Neptuno. La distancia mínima al sol (perihelio) es de 2.750 millones de kilómetros y la distancia máxima al sol es de 3.005 millones de kilómetros (Afelio). El día de Urano dura 17 horas y 14 minutos. El año de Urano (una vuelta completa al sol) tarda 84 años de La Tierra. Urano tiene 27 lunas. Las dos más grandes, Titania y Oberón, fueron descubiertas por William Herschel en 1787." 
+DiamPlaneta[8]=OriY /23     
+OrbPlaneta[8]=OriY / 1.04      
+ColorPlaneta[8]="DarkSlateBlue"      
+PeriodoPlaneta[8]= 60115       
+NombrePlaneta[8]="Neptuno"  
+InfoPlaneta[8]="Neptuno es el cuarto planeta en cuanto a tamaño y el octavo en cuanto a distancia al Sol. Siendo actualmente el último planeta del sistema solar ya que plutón fue degradado a la categoría de 'Planeta Enano'. Ggracias a la nueva categoría de plutón Neptuno ha adquirido gran importancia, ya que, todo cuerpo celeste mas allá de la órbita de este planeta se llama objeto transneptuniano o cuerpo celeste transneptuniano. La distancia media de Neptuno al Sol es de 4.500 millones de kilómetros. Cuando está cerca del sol se encuentra a unas 29 Unidades Astronómicas (Perihelio) y Cuando se aleja del sol se encuentra a 30.4 UA. Su diámetro ecuatorial es de aproximadamente 49.400 kilómetros, o sea, cerca de 3,8 veces el de la Tierra. Su volumen es aproximadamente 72 veces y su masa 17 veces la de la Tierra o 1,7 veces la del agua. Neptuno completa su órbita alrededor del Sol cada 165 años. Un día de Neptuno tiene 16 horas y 6,7 minutos."
+For i=8 to 1 Step -1
+  GraphicsWindow.PenColor =ColorPlaneta[i] 
+  GraphicsWindow.PenWidth =1
+  GraphicsWindow.BrushColor="Black"
+  OPlan[I] = Shapes.AddEllipse (OrbPlaneta[i] * RelAsp*2 ,  OrbPlaneta[i] *2)
+  Shapes.Move (OPlan[i],OriX - OrbPlaneta[i] * RelAsp ,oriy - OrbPlaneta[i])
+endfor
+For i=1 to 100
+  GraphicsWindow.PenColor="White"
+  GraphicsWindow.BrushColor="White"
+  StarX[i]= Math.GetRandomNumber(GraphicsWindow.Width)
+  StarY[i]= Math.GetRandomNumber(GraphicsWindow.Height)
+  Star[i]= Shapes.AddEllipse (Math.GetRandomNumber(3),Math.GetRandomNumber(3))
+  Shapes.Move(Star[i],StarX[i],StarY[i])
+endfor
+For i=8 To 0 Step -1
+  AnguloPlaneta[i]= 270
+  GraphicsWindow.PenColor =ColorPlaneta[i]
+  PlanetaX[i]= OriX - DiamPlaneta[i] / 2
+  PlanetaY[i]= OriY - DiamPlaneta[i] / 2 -OrbPlaneta[i]
+  If I=6 Then 
+    GraphicsWindow.PenWidth=DiamPlaneta[6] /6
+    GraphicsWindow.BrushColor="Black"
+    Anillo= Shapes.AddEllipse(DiamPlaneta[6] * 2,DiamPlaneta[6] * 0.5) 
+    Shapes.Move(Anillo,PlanetaX[6]-DiamPlaneta[6]*0.5, PlanetaY[6]+DiamPlaneta[6]*0.25) 
+    AnilloL= Shapes.AddEllipse(DiamPlaneta[6] * 2,DiamPlaneta[6] * 0.5)
+    Shapes.Move(AnilloL,40-DiamPlaneta[6], 50*i + 25-DiamPlaneta[6] *0.25) 
+  EndIf
+  GraphicsWindow.BrushColor=ColorPlaneta[i]
+  Planeta[i]= Shapes.AddEllipse(DiamPlaneta[i],DiamPlaneta[i])
+  Shapes.Move(Planeta[i],PlanetaX[i], PlanetaY[i]) 
+ LPlaneta[i]= Shapes.AddEllipse(DiamPlaneta[i],DiamPlaneta[i]) 
+ TPlaneta[i]= Shapes.AddText(Nombreplaneta[I])
+ If i>0 then  
+   Shapes.Move(LPlaneta[i],40-DiamPlaneta[i]/2, 50*i + 25-DiamPlaneta[i] /2)
+   Shapes.Move(TPlaneta[i],90, 50*i+ 17)
+ Else  
+    Shapes.Move(LPlaneta[i],40-DiamPlaneta[i], 50*i-DiamPlaneta[i] /2 ) 
+    Shapes.Move(TPlaneta[i],90, 50*i+DiamPlaneta[i]/4-8) 
+  EndIf
+  
+EndFor
+GraphicsWindow.BrushColor="White"
+TIns= Shapes.AddText("Pulsa sobre el nombre de un planeta para ver información del mismo, o sobre la velocidad de animación para cambiarla") 'texto informativo
+Shapes.Move(Tins,20, GraphicsWindow.Height-30)
+GraphicsWindow.BrushColor ="LightBlue"
+TVel=Shapes.AddText("Velocidad = 1")  
+Shapes.Move (Tvel,GraphicsWindow.Width-100,20)
+GradToRad= Math.Pi *2 /360 
+VelSim =1  
+Días=0
+GraphicsWindow.PenColor ="White"
+GraphicsWindow.BrushColor ="White"
+TDías=Shapes.AddText("0 Días")
+Shapes.Move (TDías,GraphicsWindow.Width-100,5)
+Timer.Interval=100
+Timer.Resume()
+Timer.Tick=Anima
+Sub MD 
+  X= GraphicsWindow.MouseX
+  Y= GraphicsWindow.MouseY
+  IPlan= Math.Floor(Y/50)
+  If (X>=10) and (X<=150) And (Iplan>=0) and (Iplan <=8) then
+    GraphicsWindow.ShowMessage (InfoPlaneta[Iplan],NombrePlaneta[Iplan])
+  EndIf
+   If (X>=GraphicsWindow.Width-100) And (Y>=20) and (Y <=35) then
+     VelSim=VelSim+1
+     If VelSim>10 then
+       VelSim =1
+     EndIf
+    Shapes.SetText(TVel,"Velocidad = " + VelSim)
+  EndIf
+EndSub
+Sub Anima
+  LCount =LCount +1
+  If Math.Remainder (Lcount,5)=0 then  
+    i= Math.GetRandomNumber(100)
+    StarX[i]= Math.GetRandomNumber(GraphicsWindow.Width)
+    StarY[i]= Math.GetRandomNumber(GraphicsWindow.Height)
+    Shapes.Move(Star[i],StarX[i],StarY[i])
+ EndIf 
+  For i=1 To 8  
+    paso= VelSim *  365.0 /PeriodoPlaneta[i]  
+    If i=3 then 
+      Días= Días + paso /360 *365
+      Shapes.SetText (TDías, math.Floor (Días) + " Días")
+    EndIf
+    AnguloPlaneta[i]= AnguloPlaneta[i] - paso 
+    if AnguloPlaneta[i] >360 Then 
+      AnguloPlaneta[i]= AnguloPlaneta[i] -360
+    EndIf
+    if AnguloPlaneta[i] <0 Then 'paso por 0
+      AnguloPlaneta[i]= 360 +AnguloPlaneta[i] 
+    EndIf
+    PlanetaX[i]= Math.Cos(GradToRad * AnguloPlaneta[i]) * OrbPlaneta[i] * RelAsp  +OriX - DiamPlaneta[i] / 2 
+    PlanetaY[i]= Math.Sin(GradToRad * AnguloPlaneta[i]) * OrbPlaneta[i] +OriY - DiamPlaneta[i] / 2 
+    If i=6 Then
+      Shapes.Animate(Anillo,PlanetaX[6]-DiamPlaneta[6]*0.5, PlanetaY[6]+DiamPlaneta[6]*0.25,100) 
+    EndIf
+    Shapes.Animate (Planeta[i],PlanetaX[i], PlanetaY[i],100) 
+  EndFor
+EndSub

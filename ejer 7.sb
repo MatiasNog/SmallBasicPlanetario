@@ -1,0 +1,82 @@
+GraphicsWindow.BackgroundColor = "#003300"
+InitBoard()
+InitChessmen()
+picked = ""
+GraphicsWindow.MouseDown = OnMouseDown
+GraphicsWindow.MouseMove = OnMouseMove
+GraphicsWindow.MouseUp = OnMouseUp
+Sub InitBoard
+pos = "x0=120;y0=30;" 
+board[8] = "a=BR;b=BN;c=BB;d=BQ;e=BK;f=BB;g=BN;h=BR;"
+board[7] = "a=BP;b=BP;c=BP;d=BP;e=BP;f=BP;g=BP;h=BP;"
+board[2] = "a=WP;b=WP;c=WP;d=WP;e=WP;f=WP;g=WP;h=WP;"
+board[1] = "a=WR;b=WN;c=WB;d=WQ;e=WK;f=WB;g=WN;h=WR;"
+color = "W=white;B=black;0=SaddleBrown;1=BurlyWood;"
+size = 48
+For j = 8 To 1 Step - 1
+y = pos["y0"] + (8 - j) * size
+For i = 1 To 8
+x = pos["x0"] + (i - 1) * size
+GraphicsWindow.BrushColor = color[Math.Remainder((i + j), 2)]
+GraphicsWindow.FillRectangle(x, y, size, size)
+EndFor
+EndFor
+EndSub
+Sub InitChessmen
+GraphicsWindow.FontSize = size
+pieces = "P=265F;N=265E;B=265D;R=265C;Q=265B;K=265A;"
+For j = 8 To 1 Step - 1
+y = pos["y0"] + (8 - j) * size
+For i = 1 To 8
+x = pos["x0"] + (i - 1) * size
+p = board[j][Text.GetSubText("abcdefgh", i, 1)]
+If p <> "" Then
+GraphicsWindow.BrushColor = color[Text.GetSubText(p, 1, 1)]
+sHex = pieces[Text.GetSubText(p, 2, 1)]
+Math_Hex2Dec()
+obj = Shapes.AddText(Text.GetCharacter(iDec))
+men[obj]["x"] = x
+men[obj]["y"] = y
+Shapes.Move(obj, men[obj]["x"], men[obj]["y"] - size * 0.12)
+EndIF
+EndFor
+EndFor
+nMen = Array.GetItemCount(men)
+index = Array.GetAllIndices(men)
+EndSub
+Sub OnMouseDown
+mx = GraphicsWindow.MouseX
+my = GraphicsWindow.MouseY
+For i = 1 To nMen
+obj = index[i]
+x = men[obj]["x"]
+y = men[obj]["y"]
+If x <= mx And mx <= x + size And y <= my And my <= y + size Then
+picked = obj
+dx = mx - x
+dy = my - y
+i = nMen + 1
+EndIf
+EndFor
+EndSub
+Sub OnMouseMove
+If picked <> "" Then
+mx = GraphicsWindow.MouseX
+my = GraphicsWindow.MouseY
+x = mx - dx
+y = my - dy
+men[picked]["x"] = x
+men[picked]["y"] = y
+Shapes.Move(picked, x, y)
+EndIf
+EndSub
+Sub OnMouseUp
+picked = ""
+EndSub
+Sub Math_Hex2Dec
+iDec = 0
+iLen = Text.GetLength(sHex)
+For iPtr = 1 To iLen
+iDec = iDec * 16 + Text.GetIndexOf("0123456789ABCDEF", Text.GetSubText(sHex, iPtr, 1)) - 1
+EndFor
+EndSub
